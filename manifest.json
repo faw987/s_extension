@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Search Aggregator",
+  "version": "1.2",
+  "description": "Search across platforms using selected text or entered text.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Enter text for searches",
+    "default_popup": "popup.html"
+  }
+}
